@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(use.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+       width: 10px;
+       height: 20px;
+       margin-top: -140px;
+       margin-left: -100px;
+       cursor: pointer;
+   }
+ .navbar ul li{
+    list-style: none;
+    color: rgb(22, 18, 18);
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+   }
+  .navbar ul li a{
+      text-decoration: none;
+      color: rgb(11, 12, 12);
+      font-weight: bold;
+  }
+  .navbar ul li::after{
+    content: '';
+    height: 2px;
+    display: block;
+    width: 0%;
+    background: #d10b0b;
+    margin: auto;
+    transition: 0.5s;
+  
+  }
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
+  .search{
+      width: 290px;
+      float: left;
+      margin-left: -290px;
+  }
+  .srch{
+      font-family:'Times New Roman';
+      width: 230px;
+      height: 5px;
+      background: transparent;
+      border: 1px solid #090a0f;
+      margin-top: 2px;
+      color: rgb(7, 3, 3);
+      font-size: 14px;
+      float: left;
+      padding: 10px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+      border-right: none;
+  }
+
+  .srch :focus{
+      outline: none;
+  }
+  .btn{
+     
+      width: 50px;
+      height: 1px;
+      padding-bottom: 20px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+.content{
+    width: 1200px;
+    height: auto;
+    margin-top: 600px;
+    color: white;
+    position: absolute;
+    margin-left: -90px;
+    text-align: center;
+  
+} 
+.content h1{
+    font-size: 40px;
+    margin-top: 80px;
+}
+.content p{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.content .cn {
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(207, 9, 9);
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.content .cn a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.cn:hover{
+    background-color: orange;
+} 
+.form{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 170px;
+    left: 970px;
+    border-radius: 20px;
+   background-image: url(use.jpg);
+   background-position: right;
+   padding: 15px;
+}
+.form h3{
+    width: 270px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.form input{
+    width: 270px;
+    height: 30px;
+    background: #090a0f;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.abc{
+width: 140px;
+height: 30px;
+margin-top: 5px;
+}
+.abc a{
+    text-decoration: none;
+color: rgb(14, 14, 194);
+}
+.form .link{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.form .link a{
+    text-decoration: none;
+    margin-left: 35px;
+}
+.form .liw{
+    margin-left: 43px;
+    text-decoration: none;
+    color: yellowgreen;
+}
+.goat{
+    text-decoration-style: solid;
+    color: rgb(255, 17, 0);
+}
+.social-icons{
+    width: 10px;
+    height: 5px;
+    cursor: pointer;
+    margin-top: 9px;
+    display: flex;
+}
+    .q{
+        width: 25px;
+        height: 25px;
+        margin-left: 7px;
+    }
+    .w{
+        width: 25px;
+        height: 25px;
+        margin-left: 14px;
+    }
+    .e{
+        width: 25px;
+        height: 25px;
+        margin-left: 14px;
+    }
+    .r{
+        width: 25px;
+        height: 25px;
+        margin-left: 14px;
+    }
+    .u{
+        width: 25px;
+        height: 25px;
+        margin-left: 14px;
+    }
+input:focus,input:hover,input:active{
+    outline: none;
+}
